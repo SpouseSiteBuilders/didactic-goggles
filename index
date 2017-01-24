@@ -1,0 +1,130 @@
+<!DOCTYPE = html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>index</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css" media="screen"/>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script> $( function() {
+    var availableTags = [
+      "Alabama",
+      "Alaska",
+      "Arizona",
+      "Arkansas",
+      "California",
+      "Colorado",
+      "Connecticut",
+      "Delaware",
+      "Florida",
+      "Georgia",
+      "Hawaii",
+      "Idaho",
+      "Illinois",
+      "Indiana",
+      "Iowa",
+      "Kansas",
+      "Kentucky",
+      "Louisiana",
+      "Maine",
+      "Maryland",
+      "Massachusetts",
+      "Michigan",
+      "Minnesota",
+      "Mississippi",
+      "Missouri",
+      "Montana",
+      "Nebraska",
+      "Nevada",
+      "New Hampshire",
+      "New Jersey",
+      "New Mexico",
+      "New York",
+      "North Carolina",
+      "North Dakota",
+      "Ohio",
+      "Oklahoma",
+      "Oregon",
+      "Pennsylvania",
+      "Rhode Island",
+      "South Carolina",
+      "South Dakota",
+      "Tennessee",
+      "Texas",
+      "Utah",
+      "Vermont",
+      "Virgina",
+      "Washington",
+      "West Virginia",
+      "Wisconsin",
+      "Wyoming"
+       
+
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+</script>
+    
+   
+  </head>
+
+  <h1 style="text-align:center"> Here or There Base Compare </h1>
+ 
+    
+  <body>
+  
+  
+    <h2> Begin your search for your next "home away from home" here. </h2>
+    <div id="outer">
+      <div class="inner"><button type="button" form="search">State</button></div>
+      <div class="inner"><button type="button" form="search">Country</button></div>
+    <div class="inner"><button type="button"
+                               form="search">Command</button></div>
+    
+    </div>
+    
+    
+<div  style="margin:0 auto" align=center>
+ <form> <input id="tags" type="text" placeholder="Search for..." required >
+  <input type="button" value="Search">
+ </form>
+    
+    
+    </div>
+    
+
+    <ul> 
+      <li> <a href="/">Home</a> </li>
+      <li> <a href="/">Search Bases</a> </li>
+      <li> <a href="/">Community</a>
+      </li>
+      <li> <a href="/">Contact Us</a> 
+      </li>
+    </ul>
+    
+    <br> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </br>
+  <footer>Website designed by Lindsay Fletcher </footer>
+  </body>
+</html>
