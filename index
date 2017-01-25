@@ -83,6 +83,7 @@
     <div id="outer">
       <div class="inner"><button type="button" form="search">State</button></div>
       <div class="inner"><button type="button" form="search">Country</button></div>
+      <div class="inner"><button type="button" form="search">Branch</button></div>
     <div class="inner"><button type="button"
                                form="search">Command</button></div>
     
