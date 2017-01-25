@@ -1,0 +1,25 @@
+<!DOCTYPE = html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"/>
+    <title>index</title>
+	</head>
+	
+	<body>
+	
+	<h1> Please select comparison filters </h1>
+	
+	<form action="filter_results.asp" method="get">
+	<input type="checkbox" name="filters" value="climate"> Climate <br>
+	<input type="checkbox" name="filters" value="housingAllowance"> Housing Allowance <br>
+	<input type="checkbox" name="filters" value="Schools"> Schools <br>
+	<input type="checkbox" name="filters" value="crime"> Crime <br>
+	<input type="checkbox" name="filters" value="baseActivities"> Base Activities<br>
+	<input type="checkbox" name="filters" value="nearbyActivities"> Nearby Activities <br>
+    
+	<input type="submit" value="Submit">
+	</form>
+	
+	</body>
+	
+	</html>
